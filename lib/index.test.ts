@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {IubendaConsentSolution, Subject} from '~/index';
+import {IubendaConsentSolution, Subject} from './index';
 
 function validApiKey(): string {
   return process.env.API_KEY || 'YOUR-VALID-IUBENDA-API-KEY';
@@ -147,10 +147,10 @@ describe('iubenda-consent-solution-api', function () {
           },
         ],
         preferences: {
-          privacy_policy: 'true',
-          terms_and_conditions: 'true',
-          cookie_policy: 'true',
-          newsletter_subscription: 'false',
+          privacy_policy: true,
+          terms_and_conditions: true,
+          cookie_policy: true,
+          newsletter_subscription: false,
         },
         ip_address: '',
       });

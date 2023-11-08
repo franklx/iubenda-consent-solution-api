@@ -63,6 +63,7 @@ export interface Subject {
   last_name?: string;
   full_name?: string;
   verified?: boolean;
+  phones?: string[];
 }
 
 export interface SubjectResponse extends Subject {

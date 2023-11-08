@@ -123,7 +123,7 @@ export interface ConsentSubject {
 }
 
 export interface ConsentPreferences {
-  [key: string]: string;
+  [key: string]: boolean;
 }
 
 export interface ConsentLegalNoticesEntity {
@@ -134,7 +134,7 @@ export interface ConsentLegalNoticesEntity {
   /**
    * Optional, auto-filled if not provided
    */
-  version?: string;
+  version?: string | number;
 }
 
 export interface ConsentProofsEntity {
