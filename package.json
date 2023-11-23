@@ -1,6 +1,6 @@
 {
   "name": "@franklx/iubenda-consent-solution-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "API client to implement Iubenda Consent Solution in backend service",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,23 +19,22 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "node": "^18.18.2",
     "superagent": "^8.1.2"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.10",
-    "@types/mocha": "^10.0.4",
-    "@types/node": "^18.18.9",
-    "@types/superagent": "^4.1.21",
-    "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "@typescript-eslint/parser": "^6.10.0",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^18.18.12",
+    "@types/superagent": "^4.1.22",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
     "chai": "^4.3.10",
-    "eslint": "^8.53.0",
+    "eslint": "^8.54.0",
     "mocha": "^10.2.0",
     "nodemon": "^3.0.1",
     "rimraf": "^5.0.5",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.2"
   },
   "keywords": [
     "iubenda",
