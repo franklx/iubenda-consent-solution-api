@@ -10,13 +10,14 @@
   "private": false,
   "scripts": {
     "build": "rimraf dist && tsc --build tsconfig.prod.json",
-    "start": "yarn run start:dev",
+    "start": "npm run start:dev",
     "test": "mocha --config .mocharc.json lib/**/*.test.ts",
     "test:watch": "mocha --config .mocharc.json --watch lib/**/*.test.ts",
     "lint": "eslint lib/**/*.ts --fix",
     "start:dev": "nodemon --config .nodemonrc.json lib/index.ts",
     "start:prod": "node dist/index.js",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "publish": "npm publish --access public"
   },
   "dependencies": {
     "superagent": "^8.1.2"
